@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="blue">#0000ff</color><!--蓝色 -->
+     <color name="black">#000000</color><!--黑色 -->
+     <color name="white">#ffffff</color><!--白色 -->
+     
+     <color name="topBarTextColor">#EAEAEC</color>
+     <color name="btnTextColor">#EAEAEC</color>
+     
+     
+     
+     <color name="devideLineColor">#EAEAEC</color><!-- 分割线颜色  -->
+</resources>

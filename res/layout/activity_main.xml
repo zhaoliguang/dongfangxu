@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/fragment_voltage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.dongfangxu.fragment.VoltageFragment" />
+
+    <fragment
+        android:id="@+id/fragment_switch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.dongfangxu.fragment.SwitchFragment" />
+
+    <fragment
+        android:id="@+id/fragment_exception"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        class="com.dongfangxu.fragment.ExceptionFragment" />
+
+    <com.dongfangxu.fragment.FragmentIndicator
+        android:gravity="center_vertical"
+        android:id="@+id/indicator"
+        android:padding="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/ic_bottom_bar_back" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line1"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:textSize="@dimen/item_title_text"
+            android:text="配电所:" />
+
+        <TextView
+            android:id="@+id/tx_suo_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/item_title_text"
+            android:text="s001" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="@dimen/item_title_text"
+             android:layout_marginLeft="5dp"
+            android:text="开关柜:" />
+
+        <TextView
+            android:id="@+id/tx_gui_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="@dimen/item_title_text"
+            android:text="001" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+         >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/item_time_text"
+            android:text="更新时间：" />
+
+        <TextView
+            android:id="@+id/tx_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/item_time_text"
+            android:text="2014年6月13日" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:layout_marginTop="3dp"
+        android:orientation="vertical" >
+
+        <com.dongfangxu.component.MyGridView
+            android:id="@+id/grid_View"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:horizontalSpacing="1dp"  
+   			 android:verticalSpacing="1dp"  
+            android:numColumns="4" >
+        </com.dongfangxu.component.MyGridView>
+
+    </LinearLayout>
+
+</LinearLayout>

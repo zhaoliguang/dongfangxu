@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">东方旭智能开关系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_home">"电压信息"</string>
+    <string name="tab_inspection">"开关信息"</string>
+    <string name="tab_conserve">"异常信息"</string>
+    <string name="tab_setting">"设置"</string>
+    <string name="title_home">"主页"</string>
+    <string name="title_inspection">"巡查"</string>
+    <string name="title_conserve">"养护"</string>
+    <string name="title_setting">""设置"</string>
+    <string name="title_inspection_details">"信息填写"</string>
+    <string name="title_found_darily">"上传日志"</string>
+
+    <!-- Conserve -->
+    <string name="maintainstarttime">维修开始时间</string>
+    <string name="maintainendtime">维修结束时间</string>
+    <string name="maintainfinishtime">完工时间</string>
+    <string name="maintaintype">维修分类</string>
+    <string name="maintainstatus">维修状态</string>
+    <string name="handlemethod">处理状态</string>
+    <string name="engineeringtotal">工程量总和</string>
+    <string name="resonanaly">成因终分析</string>
+    <string name="finalhanle">最终处理措施</string>
+    <string name="maintainlocation">维修位置(m)</string>
+    <string name="toplayerlong">上面层长(m)</string>
+    <string name="toplayerwidth">上面层宽(m)</string>
+    <string name="toplayerhigh">上面层高(m)</string>
+    <string name="toplayertemp">上面施工层材料温度</string>
+    <string name="toplayerengineering">上面层工程量</string>
+    <string name="surfacelayerlong">中面层长(m)</string>
+    <string name="surfacelayerwidth">中面层宽(m)</string>
+    <string name="surfacelayerhigh">中面层高(m)</string>
+    <string name="surfacelayertemp">中面层施工材料温度</string>
+    <string name="surfacelayerengineering">中面层工程量</string>
+    <string name="lowerlong">下面层长(m)</string>
+    <string name="lowerwidth">下面层宽(m)</string>
+    <string name="lowerhigh">下面层高(m)</string>
+    <string name="lowertemp">下面层施工材料温度</string>
+    <string name="lowlayerengineering">下面层工程量</string>
+    <string name="baselayerlong">基层长(m)</string>
+    <string name="baselayerwidth">基层宽(m)</string>
+    <string name="baselayerhigh">基层高(m)</string>
+    <string name="baselayertemp">基层施工材料温度</string>
+    <string name="baselayerengineering">基层工程量</string>
+    
+    <string name="crackwidth">宽度</string>
+    <string name="cracklong">长度</string>
+    <string name="crackhigh">高度</string>
+    <string name="crackmaterialtemperature">施工材料温度</string>
+    <string name="crackengineering">工程量</string>
+    <string name="crackhandlemethod">处理方法</string>
+    
+    <string name="disease_tongdescription">砼工程量</string>
+    <string name="disease_tongamount">砼工程量合计</string>
+    <string name="disease_steeldescription">钢筋量</string>
+    <string name="disease_steelamount">钢筋量合计</string>
+
+    <string-array name="array_maintain_type">
+        <item>裂缝处理-贴缝</item>
+        <item>裂缝处理-清缝灌缝</item>
+        <item>裂缝处理-扩缝灌缝</item>
+        <item>坑槽修补-热补法</item>
+        <item>坑槽修补-冷缺法</item>
+        <item>乳化沥青封层修补</item>
+        <item>桥面铺装C40环氧树脂砼修补</item>
+        <item>路面基层C15修补</item>
+    </string-array>
+    <string-array name="array_maintain_status">
+        <item>应急处理</item>
+        <item>正常维修</item>
+    </string-array>
+    <string-array name="array_maintain_method">
+        <item>应急处理</item>
+        <item>正常维修</item>
+    </string-array>
+    <!-- inspection -->
+    <string name="inspection_add_case">添加病害</string>
+    <string name="inspection_upload">上传所有</string>
+    <string name="inspection_date">巡查日期:</string>
+    <string name="inspection_location">所处位置:</string>
+    <string name="inspection_direction">当前方向:</string>
+    <string name="inspection_lane">当前车道:</string>
+    <string name="inspection_latitude_longitude">经度纬度:</string>
+    <string name="start_number">开始桩号:</string>
+    <string name="start_number_K">K</string>
+    <string name="end_number">结束桩号:</string>
+    <string name="inspection_damage_type">病害类型:</string>
+    <string name="inspection_damage_level">紧急程度:</string>
+    <string name="inspection_area">严重级别:</string>
+    <string name="inspection_remark">信息备注:</string>
+    <string name="inspection_demage_image">破损图片:</string>
+    <string name="inspection_show_image">照片显示区域</string>
+    <string name="inspection_shoot">拍摄</string>
+    <string name="inspection_save">保存</string>
+    
+    <string name="inspection_sganalysis">成因初分析</string>
+
+    <!-- 巡查日志 -->
+    <string name="foundno">巡查编号</string>
+    <string name="founddate">巡查日期</string>
+    <string name="startTime">开始时间</string>
+    <string name="endTime">结束时间</string>
+    <string name="foundperson">巡查人员</string>
+    <string name="chargeperson">负责人</string>
+    <string name="weather">天气</string>
+    <string name="startstake">巡查起始桩号</string>
+    <string name="endstake">巡查结束桩号</string>
+    <string name="temperature">气温</string>
+    <string name="remark">备注</string>
+    <string name="uploadDaily">上传日志</string>
+    <string name="pick_time">选择时间</string>
+    <string name="pick_date">选择日期</string>
+
+    <string-array name="array_location">
+        <item>主线</item>
+        <item>副线</item>
+    </string-array>
+    <string-array name="array_road_name">
+        <item>沪陕高速</item>
+        <item>蚌合高速</item>
+    </string-array>
+    <string-array name="array_direction">
+        <item>上行行车道</item>
+        <item>下行行车道</item>
+    </string-array>
+    <string-array name="array_lane">
+        <item>行车道</item>
+        <item>超车道</item>
+    </string-array>
+    <string-array name="array_damage_type">
+        <item>龟裂</item>
+        <item>松散</item>
+    </string-array>
+    <string-array name="array_damage_level">
+        <item>严重</item>
+        <item>一般</item>
+        <item>轻</item>
+    </string-array>
+    <string-array name="array_severity">
+        <item>高级</item>
+        <item>中级</item>
+        <item>轻</item>
+    </string-array>
+
+    <string name="str_location">当前定位状况正常</string>
+    <string name="str_wifi">当前无线状况正常</string>
+    <string name="str_case">"有3条病害未上传  "</string>
+    <string name="str_case_repair">"有0条记录未处理  "</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="c15long">基层长</string>
+    <string name="c15width">基层宽</string>
+    <string name="c15high">基层高</string>
+    <string name="c15temp">基层施工材料温度</string>
+    <string name="c15engerineering">基层工程量</string>
+    <string name="confirm">确认</string>
+    <string name="spinner_Roadno">道路名称:</string>
+    <string name="conserve_read_more">查看病害详情</string>
+    <string name="tongdescription">砼工程量</string>
+    <string name="tongamount">合计</string>
+    <string name="steeldescription">钢筋量</string>
+    <string name="search">查询</string>
+    <string name="conserve_poup_start_time">开始时间</string>
+    <string name="conserve_poup_end_time">结束时间</string>
+    <string name="conserve_poup_mohustarke">模糊桩号</string>
+    <string name="conserve_poup_disease_type">病害类型</string>
+
+</resources>

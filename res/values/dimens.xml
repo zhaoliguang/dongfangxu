@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    
+        <!-- MyListView -->
+    <dimen name="head_rl_height">60px</dimen>
+    <dimen name="head_pb">50px</dimen>
+    <dimen name="head_jl_ll">60px</dimen>
+    <dimen name="head_jl_fl">20px</dimen>
+    
+    <dimen name="item_title_text">20sp</dimen>
+    <dimen name="item_time_text">16sp</dimen>
+    <dimen name="item_content_text">16sp</dimen>
+    
+    <!-- 所有title栏的高度 -->
+    <dimen name="all_title_height">49dp</dimen>
+    <!-- 所有title栏后退按钮的宽度 -->
+    <dimen name="all_title_back_width">45dp</dimen>
+    
+    <!-- 定位按钮宽度和高度 -->
+    <dimen name="map_btn_get_location_width">40dp</dimen>
+    <dimen name="map_btn_get_location_height">40dp</dimen>
+</resources>
