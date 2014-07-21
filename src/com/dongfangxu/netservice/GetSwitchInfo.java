@@ -68,22 +68,25 @@ public class GetSwitchInfo {
 				map.put("sid",cvinfoObject.get("sid"));
 				
 				ArrayList<String> gridList=new ArrayList<String>();
-				gridList.add("S1:"+boolToString(cvinfoObject.get("S1")));
-				gridList.add("S2:"+boolToString(cvinfoObject.get("S2")));
-				gridList.add("S3:"+boolToString(cvinfoObject.get("S3")));
-				gridList.add("S4:"+boolToString(cvinfoObject.get("S4")));
-				gridList.add("S5:"+boolToString(cvinfoObject.get("S5")));
-				gridList.add("S6:"+boolToString(cvinfoObject.get("S6")));
-				gridList.add("S7:"+boolToString(cvinfoObject.get("S7")));
-				gridList.add("S8:"+boolToString(cvinfoObject.get("S8")));
-				gridList.add("S9:"+boolToString(cvinfoObject.get("S9")));
-				gridList.add("S10:"+boolToString(cvinfoObject.get("S10")));
-				gridList.add("S11:"+boolToString(cvinfoObject.get("S11")));
-				gridList.add("S12:"+boolToString(cvinfoObject.get("S12")));
-				gridList.add("S13:"+boolToString(cvinfoObject.get("S13")));
-				gridList.add("S14:"+boolToString(cvinfoObject.get("S14")));
-				gridList.add("S15:"+boolToString(cvinfoObject.get("S15")));
-				gridList.add("S16:"+boolToString(cvinfoObject.get("S16")));
+				gridList.add("断路器    \n"+boolToString(cvinfoObject.get("S1")));
+				gridList.add("手工位置\n"+boolToString(cvinfoObject.get("S2")));
+				gridList.add("实验位置\n"+boolToString(cvinfoObject.get("S3")));
+				gridList.add("接地刀   \n"+boolToString(cvinfoObject.get("S4")));
+				
+				gridList.add("储能状态       \n"+boolToString(cvinfoObject.get("S5")));
+				gridList.add("A相带电状态\n"+boolToString(cvinfoObject.get("S7")));
+				gridList.add("B相带电状态\n"+boolToString(cvinfoObject.get("S8")));
+				gridList.add("C相带电状态\n"+boolToString(cvinfoObject.get("S9")));
+				
+				gridList.add("开关量7\n"+boolToString(cvinfoObject.get("S6")));
+				gridList.add("锁状态  \n"+boolToString(cvinfoObject.get("S10")));
+				gridList.add("传感器1\n"+boolToString(cvinfoObject.get("S11")));
+				gridList.add("传感器2\n"+boolToString(cvinfoObject.get("S12")));
+				
+				gridList.add("负载1\n"+boolToString(cvinfoObject.get("S13")));
+				gridList.add("负载2\n"+boolToString(cvinfoObject.get("S14")));
+				gridList.add("回路1\n"+boolToString(cvinfoObject.get("S15")));
+				gridList.add("回路2\n"+boolToString(cvinfoObject.get("S16")));
 				map.put("gridList",gridList);
 				list.add(map);
 			}
@@ -99,9 +102,9 @@ public class GetSwitchInfo {
 	public static String boolToString(Object info){
 		boolean turn =(Boolean) info;
 		if(turn)
-			return "开";
+			return "1";
 		else
-			return "关";
+			return "0";
 		
 	}
 

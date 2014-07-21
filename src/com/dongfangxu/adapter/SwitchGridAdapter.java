@@ -50,7 +50,8 @@ public class SwitchGridAdapter extends BaseAdapter {
 		TextView result = new TextView(context);  
         result.setText(mSelfData.get(position));  
         result.setTextColor(Color.BLACK);  
-        result.setTextSize(16);  
+        result.setTextSize(14);  
+        result.setHeight(80);
         result.setLayoutParams(new AbsListView.LayoutParams(new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT)));  
         result.setGravity(Gravity.CENTER);  
         result.setBackgroundColor(Color.WHITE); //…Ë÷√±≥æ∞—’…´  
